@@ -4,7 +4,8 @@
     home = {
         packages = with pkgs; [
             # Enter list of packages to install here
-            
+            home-manager # DO NOT REMOVE- IT WILL UNINSTALL ITSELF!
+
             # Command-Line Utilities
             zsh # Better shell
             neovim # Better editor
@@ -12,6 +13,10 @@
             fzf fzf-zsh # Fuzzyfinder for zoxide; Fuzzyfinder for Zsh
             
             fastfetch # Better neofetch
+
+
+            # Network Utilities
+            tailscale # VPN
         ];
 
         # Ensure this is set to correct username and home directory
