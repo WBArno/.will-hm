@@ -17,6 +17,7 @@
 
             # Network Utilities
             tailscale # VPN
+            aria2 # Better Download Manager
         ];
 
         # Ensure this is set to correct username and home directory
